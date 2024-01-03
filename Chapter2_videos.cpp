@@ -10,7 +10,7 @@ using namespace std;
 int main() {
 
   // path of the video
-	string path = "Resources/test_video.mp4";
+  string path = "Resources/test_video.mp4";
 	
   // videoCapture object
   VideoCapture cap(path);
