@@ -15,8 +15,8 @@ int main() {
 
 	Mat imgHSV, mask;
 
-	int hmin = 0, smin = 110, vmin = 153;
-	int hmax = 19, smax = 240, vmax = 255;
+	int hmin = 0, smin = 0, vmin = 0;
+	int hmax = 0, smax = 0, vmax = 0;
 
 	namedWindow("Trackbars", (640, 200));
 
